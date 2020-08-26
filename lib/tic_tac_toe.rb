@@ -108,6 +108,7 @@ end
 
   def over?(board)
     won?(board) || draw?(board)
+    returns true
   end
 
   def won?(board)
